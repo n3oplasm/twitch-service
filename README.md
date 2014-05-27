@@ -21,6 +21,6 @@ At this point you should be able to run com.landmarkstreamers.twitch.Main in Ecl
 
 ##Using Egit
 
-To commit: to commit changes to your local git repository. After typing a message click the "Commit and Push" button to finish. When you have made one or more commits that you wish to push to Github, right click the project again, select Team > Push to Upstream and enter your Github username and password (checking Store in Secure Store will prevent Eclipse from prompting you for this again).
+To commit: Right click the root of the project (twitch-service) in the "Project Explorer" and select Team > Commit to commit changes to your local git repository. After typing a message click the "Commit and Push" button to finish. When you have made one or more commits that you wish to push to Github, right click the project again, select Team > Push to Upstream and enter your Github username and password (checking Store in Secure Store will prevent Eclipse from prompting you for this again).
 
-To update: Same as commits except after right clicking the project select Team > Pull from the context menu.
+To update: Same as commit except after right clicking the project select Team > Pull from the context menu.
