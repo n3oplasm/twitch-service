@@ -165,7 +165,7 @@ public class TwitchClient {
      *
      * @see java.util.Iterator
      */
-    class StreamIterator implements Iterator<Stream> {
+    private class StreamIterator implements Iterator<Stream> {
         private List<Stream> streamsList;
 
         private String game;
