@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("Follows:\n");
 
-        Iterator<Follow> followIterator = client.getFollows("katarella");
+        Iterator<Follow> followIterator = client.getFollowIterator("katarella");
 
         while (followIterator.hasNext()) {
             System.out.println(followIterator.next().getUser().getDisplayName());
@@ -27,7 +27,7 @@ public class Main {
 
         System.out.println("\nStreams:\n");
 
-        Iterator<Stream> streamIterator = client.getStreams();
+        Iterator<Stream> streamIterator = client.getStreamIterator();
 
         while (streamIterator.hasNext()) {
             System.out.println(streamIterator.next().getChannel().getUrl());

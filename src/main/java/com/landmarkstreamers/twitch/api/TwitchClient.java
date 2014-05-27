@@ -66,7 +66,7 @@ public class TwitchClient {
      *
      * @return iterator of {@link com.landmarkstreamers.twitch.model.Stream Stream} objects
      */
-    public Iterator<Stream> getStreams() {
+    public Iterator<Stream> getStreamIterator() {
         return new StreamIterator(GAME);
     }
 
@@ -76,7 +76,7 @@ public class TwitchClient {
      * @param channel the name of the channel
      * @return iterator of {@link com.landmarkstreamers.twitch.model.Follow Follow} objects
      */
-    public Iterator<Follow> getFollows(String channel) {
+    public Iterator<Follow> getFollowIterator(String channel) {
         return new FollowIterator(channel);
     }
 
